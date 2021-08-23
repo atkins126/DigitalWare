@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/20 12:53:48.742.dproj,C:\Users\genyu\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\genyu\Desktop\Nueva carpeta\Project1.dproj</Transaction>
+    <Transaction>2021/08/20 13:27:29.280.dproj,C:\Users\genyu\Desktop\Nueva carpeta\Project1.dproj=C:\Users\genyu\Desktop\Nueva carpeta\GenSerieF.dproj</Transaction>
+    <Transaction>2021/08/20 13:27:42.065.pas,C:\Users\genyu\Desktop\Nueva carpeta\Unit1.pas=C:\Users\genyu\Desktop\Nueva carpeta\ufrmmainUnit1.pas</Transaction>
+    <Transaction>2021/08/20 13:27:42.065.dfm,C:\Users\genyu\Desktop\Nueva carpeta\Unit1.dfm=C:\Users\genyu\Desktop\Nueva carpeta\ufrmmainUnit1.dfm</Transaction>
+    <Transaction>2021/08/20 13:27:51.513.pas,C:\Users\genyu\Desktop\Nueva carpeta\ufrmmainUnit1.pas=C:\Users\genyu\Desktop\Nueva carpeta\ufrmpincipal.pas</Transaction>
+    <Transaction>2021/08/20 13:27:51.513.dfm,C:\Users\genyu\Desktop\Nueva carpeta\ufrmmainUnit1.dfm=C:\Users\genyu\Desktop\Nueva carpeta\ufrmpincipal.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

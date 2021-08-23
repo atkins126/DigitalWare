@@ -1,0 +1,41 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{d8f841fd-fc34-4359-8052-2a4892dc03bc}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>GenSerieF.exe</DCC_DependencyCheckOutputName>
+    <MainSource>GenSerieF.dpr</MainSource>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG</DCC_Define>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">9226</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">Ing. Rodolfo Jimenez B</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Generador serie fibonacci</VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName">Generador serie fibonacci</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">Ing. Rodolfo Jimenez B</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks">Ing. Rodolfo Jimenez B</VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">Generador serie fibonacci</VersionInfoKeys><VersionInfoKeys Name="ProductName">Generador serie fibonacci</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments">3166157499</VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
+      <Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\5.0\Bpl\dclRBE10105.bpl">ReportBuilder Enterprise</Excluded_Packages>
+      <Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\5.0\Bpl\PCVComponents_DD6.bpl">PCV Components v3.0</Excluded_Packages>
+      <Excluded_Packages Name="$(BDS)\bin\dclofficexp100.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+      <Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\5.0\Bpl\rbRCL10105.bpl">ReportBuilder Components</Excluded_Packages>
+    </Excluded_Packages><Source><Source Name="MainSource">GenSerieF.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="GenSerieF.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="ufrmpincipal.pas">
+      <Form>frmpincipal</Form>
+    </DCCReference>
+  </ItemGroup>
+</Project>

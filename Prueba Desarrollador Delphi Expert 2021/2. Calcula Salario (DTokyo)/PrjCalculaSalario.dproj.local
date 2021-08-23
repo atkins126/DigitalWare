@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/08/22 17:02:18.666,=C:\Users\genyu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/22 17:03:06.055,=C:\Users\genyu\Desktop\Nueva carpeta\pto 1 - 7\3.2 Codigo Fuente\2. Cliente DCOM (Frontend - D2007)\CustomMsgDlg.pas</Transaction>
+    <Transaction>2021/08/22 17:03:37.604,C:\Users\genyu\Documents\Embarcadero\Studio\Projects\ufrmPrincipal.dfm=C:\Users\genyu\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/08/22 17:03:37.604,C:\Users\genyu\Documents\Embarcadero\Studio\Projects\ufrmPrincipal.pas=C:\Users\genyu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/22 17:04:15.268,C:\Users\genyu\Desktop\Nueva carpeta\pto 1 - 7\2. Calucular Salario\ufrmPrincipal.dfm=C:\Users\genyu\Documents\Embarcadero\Studio\Projects\ufrmPrincipal.dfm</Transaction>
+    <Transaction>2021/08/22 17:04:15.268,C:\Users\genyu\Desktop\Nueva carpeta\pto 1 - 7\2. Calucular Salario\ufrmPrincipal.pas=C:\Users\genyu\Documents\Embarcadero\Studio\Projects\ufrmPrincipal.pas</Transaction>
+    <Transaction>2021/08/22 17:04:16.712,C:\Users\genyu\Desktop\Nueva carpeta\pto 1 - 7\2. Calucular Salario\Project1.dproj=C:\Users\genyu\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/08/22 17:20:47.008,C:\Users\genyu\Desktop\Nueva carpeta\pto 1 - 7\2. Calucular Salario\PrjCalculaSalario.dproj=C:\Users\genyu\Desktop\Nueva carpeta\pto 1 - 7\2. Calucular Salario\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

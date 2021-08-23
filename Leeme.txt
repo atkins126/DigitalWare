@@ -1,0 +1,16 @@
+1. Solucion Serie Fibonacci - aplicacion en D2007: GenSerieF.exe
+2. Solucion Calcula Salario - aplicacion en DTokyo: PrjCalculaSalario.exe
+
+Pto 3. Facturacion
+3.1. Script DDL para crear base de datos : Base de datos en Postgres.
+3.1.1. Diagrama entidad relacion Base de datos
+3.2. Carpeta con codigo fuente de aplicaciones:
+ 3.2.1. ServidorDatos (Backend - DTokyo)
+  - Ejecutable : ServidorDatos.exe
+  - FDConnection1.Params : archivo para configurar parametros de conexion a base de datos
+    
+ 3.2.2. Cliente DCOM (Frontend - D2007)
+  - Ejecutable : AppCliente.exe
+  - Params.ini : archivo para configurar parametros de conexion a servidor de datos
+    >> Si el servidor de datos se ejecuta en un equipo diferente al que se ejecuta el cliente,
+	   entonces se debe asignar el nombre del pc remoto en el parametro "ComputerName"
